@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <h1 class="name_title">Your Name</h1>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li class="list"><a class="path" href="./index.html">About</a></li>
+          <li class="list">
+            <a class="path" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="list">
+            <a class="path" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="head_btn">
+        <img src="./icons/hamburger (1).svg" alt="" />
+      </button>
+    </header>
+    <main class="container">
+      <section class="introduction">
+        <div class="card_forms">
+          <h1 class="card_title">Contact</h1>
+          <div class="forms">
+            <form class="about_contact" action="">
+              <label class="card_desc" for="name">Name</label>
+              <input
+                class="input_data"
+                id="name"
+                type="text"
+                placeholder="John Smith"
+              />
+              <label class="card_desc" for="email">Email</label>
+              <input
+                class="input_data"
+                id="email"
+                type="email"
+                placeholder="example@gmail.com"
+              />
+              <label class="card_desc" for="message">Message</label>
+              <textarea
+                class="textarea_data"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </form>
+            <button class="btn">Send</button>
+          </div>
+        </div>
+      </section>
+      <aside class="contact">
+        <div class="card_contact">
+          <div class="contact_box">
+            <h3 class="contact_title">Connect With Me</h3>
+          </div>
+
+          <div class="contact_path">
+            <a href="#"
+              ><img
+                class="contact_img"
+                src="./assets/images/github-128.png"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                img
+                class="contact_img"
+                src="./assets/images/linkedin-128.png"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                img
+                class="contact_img"
+                src="./assets/images/stackoverflow-128.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer class="foot">
+      <div class="foot_inf">
+        <p class="foot_parag">Copyright © 2017 Your Name</p>
+      </div>
+    </footer>
+  </body>
+</html>
