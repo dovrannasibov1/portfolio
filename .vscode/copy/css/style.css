@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+ background: url(/img/concrete_seamless\ \(2\).png);
+  }
+  
+  :root {
+    --maintitleSize: 30px;
+    --lettersize: 18px;
+    --maintitleColour: #4aaaa5;
+    --navColour: #999999;
+    --paragColour: #777777;
+    --maintitleFamily: Georgia, "Times New Roman", Times, serif;
+    --letterFamily: Arial, Helvetica, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    height: 90px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    align-items: center;
+    margin: 0 0 30px;
+    border-bottom: 2px solid #ccc;
+    position: sticky;
+  }
+  
+  .head_btn {
+    background-color: white;
+    border: none;
+    display: none;
+  }
+  
+  .title {
+    width: 250px;
+    height: 90px;
+    background-color: var(--maintitleColour);
+  }
+  
+  .name_title {
+    font-family: var(--maintitleFamily);
+    font-size: var(--maintitleSize);
+    color: #fff;
+    line-height: 90px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 90px;
+  }
+  
+  .nav-list {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .path {
+    font-size: var(--lettersize);
+    font-family: var(--letterFamily);
+    color: var(--navColour);
+  }
+  
+  .list:nth-child(1),
+  .list:nth-child(2) {
+    border-right: 1px solid #efefef;
+    padding-right: 15px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+  }
+  
+  .card {
+    width: 500px;
+    height: 100%;
+    padding: 20px;
+    margin: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .info_img {
+    width: 200px;
+  }
+  
+  .contact_img {
+    width: 62px;
+    height: 62px;
+  }
+  
+  .card_info {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .card_title {
+    font-family: var(--maintitleFamily);
+    font-size: var(--maintitleSize);
+    padding-bottom: 20px;
+    line-height: 49px;
+    color: var(--maintitleColour);
+    border-bottom: 3px solid #ddd;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .card_desc {
+    font-family: var(--letterFamily);
+    font-size: var(--lettersize);
+    color: var(--paragColour);
+    /* line-height: 32px; */
+  }
+  
+  .card_contact {
+    margin-bottom: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: px;
+    width: 280px;
+    height: 200px;
+    background-color: #fff;
+  }
+  
+  .contact_title {
+    font-family: var(--maintitleFamily);
+    font-size: 22px;
+    padding-bottom: 10px;
+    line-height: 49px;
+    color: var(--maintitleColour);
+    border-bottom: 3px solid #ddd;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .card_intro {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .foot {
+    margin-top: 40px;
+  }
+  
+  .foot_inf {
+    background-color: #666;
+    padding: 30px 0;
+    border-top: 8px solid #4aaaa5;
+  }
+  
+  .foot_parag {
+    text-align: center;
+    font-size: 12px;
+    font-family: var(letterFamily);
+    color: #cccccc;
+  }
+  
+  .about_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .card_forms {
+    width: 550px;
+    height: 100%;
+    padding: 30px;
+    margin: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .input_data {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  .textarea_data {
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  .btn {
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4aaaa5;
+    border: 0 none;
+  }
+  
+  .portfolio_info_cards {
+    display: flex;
+    width: 600px;
+    height: 100%;
+    padding: 30px;
+    margin: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .card_portf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  
+  .portf_img {
+    position: relative;
+  }
+  .portf_title {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 22px;
+  }

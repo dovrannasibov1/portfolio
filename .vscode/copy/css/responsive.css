@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .head_btn {
+      display: block;
+    }
+    .nav-bar {
+      display: none;
+    }
+  }
+  
